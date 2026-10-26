@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #000000;
+}
+
+/* Navbar */
+nav {
+  background-color: #007bff;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.logo a span {
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 3px solid #ffffff;
+  transition: 0.2s linear;
+  padding-bottom: 3px;
+}
+
+.nav-list a.active {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 3px;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+.logout {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+}
+
+.logout a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.logout a:hover {
+  color: #007bff;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+}
+
+.main {
+  padding: 20px;
+}
+
+.judul {
+  text-align: center;
+  margin: 20px;
+}
+
+.judul img {
+  width: 600px; /* Sesuaikan dengan ukuran yang diinginkan */
+}
+
+.bayar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.bayar .container {
+  max-width: 600px; /* Atur lebar maksimum untuk container form */
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tambahkan style untuk gambar QR */
+.bayar .container .qr img {
+  width: 200px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px; /* Tengahkan gambar QR */
+}
+
+/* Tambahkan style untuk tombol bayar */
+.bayar .container .btn {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bayar .container .btn:hover {
+  background-color: #0056b3;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.order .container {
+  max-width: 600px; /* Atur lebar maksimum untuk container form */
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input,
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group button {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.footer-logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer-logo a span {
+  font-weight: bold;
+}
+
+.footer-info {
+  text-align: center;
+  margin: 20px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
